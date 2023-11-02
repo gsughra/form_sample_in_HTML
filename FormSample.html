@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header style="color: rgb(6, 127, 163);text-align: center;"><h1>Sign In Form Validation Sample</h1></header>
+
+<form style="background-color: rgb(142, 218, 236);">
+    <hr>
+    <div >
+        <p style="text-align: center;"> <b> SIGN-IN INFORMATION: </b> </p>
+        <hr>
+        <p> Entre your email: <input type="email" name="Email" id="eml" required></p>
+        <p> Entre passward: <input type="password" name="pas" id="pass" required></p>
+        <p> Re-Entre Passward: <input type="password" name="passward" id="passward" required></p>
+    </div>
+    <hr>
+    <div >
+        <p style="text-align: center;"><b>PERSONAL INFORMATION: </b></p>
+        <hr>
+        <p> First Name: <input type="text" name="fn" id="fn" required></p>
+        <p> Last Name: <input type="text" name="ln" id="ln" required></p>
+        <p> Address: <input type="text" name="add" id="add" required></p>
+        <p> State Name: <input type="text" name="state" id="state" required></p>
+        <p> Zip-Code: <input type="number" name="zip" id="zip" required></p>
+        <p> Phone: <input type="number" name="num" id="num" required></p>
+    </div>
+    <hr>
+    <div>
+        <p style="text-align: center;"><b>CRADIT CARD INFORMATION: </b></p>
+        <hr>
+        <p> Card type: <input type="radio" name="card" value="master card" required>
+            <label for="card">Master Card</label>
+            <input type="radio" name="card" id="card" value="visa" required>
+            <label for="card">Visa</label></p>
+        <p> Card Number: <input type="number" name="cn" id="cn" required></p>
+        <p> Expiration Date: <input type="date" name="date" id="date" required></p>
+    </div>
+    <div style="text-align: center;">
+        <input type="submit" > <input  type="reset">
+    </div>
+    <hr>
+    
+</form>
+
+</body>
+</html>
